@@ -21,7 +21,13 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "name": "GasTracker",
+      "shortName": "GasTracker",
+      "description": "LPG Station Management",
+      "themeColor": "#FF6B00",
+      "backgroundColor": "#0F1117",
+      "baseUrl": "/gas-tracker-mobile"
     },
     "plugins": [
       "expo-router",
