@@ -37,10 +37,13 @@ jobs:
         env:
           EXPO_PUBLIC_API_URL: ${{ secrets.API_URL }}
 
+      - name: List dist folder
+        run: ls -la dist/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/web
+          path: dist
 
   deploy:
     environment:
