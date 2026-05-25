@@ -26,8 +26,7 @@
       "shortName": "GasTracker",
       "description": "LPG Station Management",
       "themeColor": "#FF6B00",
-      "backgroundColor": "#0F1117",
-      "baseUrl": "/gas-tracker-mobile"
+      "backgroundColor": "#0F1117"
     },
     "plugins": [
       "expo-router",
